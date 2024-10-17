@@ -37,7 +37,7 @@ header {
     margin: 30 8 -700 8;
     border-radius: 80px;
     transition: background-color 0.3s ease-in-out;
-    font-size: 50px;
+    font-size: 30px;
     display: inline-block;
 }
 .menu a:hover {
