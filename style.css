@@ -12,6 +12,8 @@ body {
 }
 #logo {
     align-items: center;
+    height: 50px;
+    width: 100px;
     margin-left: -120px;
     margin-bottom: -20px;
     margin-top: -40;
