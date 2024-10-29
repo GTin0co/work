@@ -13,7 +13,7 @@ new Chart(ctx, {
     datasets: [{
       label: 'Consumo kWh',
       data: [3, 2, 4, 5, 2, 8, 9],
-      borderWidth: 1
+      borderWidth: 5
     }]
   },
   options: {
@@ -24,10 +24,31 @@ new Chart(ctx, {
           maxTicksLimit: 6,  // Limitar o número máximo de rótulos no eixo Y
           callback: function(value) {
             return value + ' kWh';  // Adiciona 'kWh' aos valores
+          },
+          font: {
+            size: 60 // Tamanho da fonte do eixo Y
           }
         },
+      },
+      x: {
+        ticks: {
+          font: {
+            size: 60 // Tamanho da fonte do eixo X
+          }
+        }
+      }
+    },
+    plugins: {
+      legend: {
+        labels: {
+          font: {
+
+            size: 90 // Tamanho da fonte da legenda
+          
+          }
+          
+        }
       }
     }
   }
 });
-
