@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif; 
+    font-size: 50px;
     margin: 0;
     padding: 0px;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
-    width: 1300px;
+    width: 1400px;
     height: 2890px;
 
 }
@@ -14,8 +15,8 @@ body {
     height: 247.2px;
     width: 1450.8px;
     margin-left: -120px;
-    margin-bottom: -20px;
-    margin-top: -40;
+    margin-bottom: 0px;
+    margin-top: -90px;
 
 }
 header {
@@ -39,7 +40,7 @@ header {
     margin: 30 8 -700 8;
     border-radius: 80px;
     transition: background-color 0.3s ease-in-out;
-    font-size: 30px;
+    font-size: 50px;
     display: inline-block;
 }
 .menu a:hover {
@@ -55,32 +56,32 @@ footer {
     color: #999;
     text-align: center;
     padding: 1px;
-    font-size: 40px;
+    font-size: 55px;
 }
 #MyChart{
-    margin-left: 10px; 
-    margin-right: 20px; 
-    margin-top: 35px;
-    height: 200px;
-    width: 400px;
+    margin: 100 30 100 30;
+    width: 1300 !important;
+    height: 700px !important; /* ou a altura desejada */
+    aspect-ratio: 0; /* ou remova a propriedade */
 }
 #totalBox {
     text-align: center;
     background-color: #f1f1f1;
     padding: 20px;
-    margin: 30px auto;
-    border-radius: 15px;
+    margin: 80px auto;
+    border-radius: 50px;
     width: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 24px;
+    font-size: 70px;
     color: #333;
 }
 .about-us{
-    margin: 70 15 -300 15;
+    margin: 150 60 -300 60;
     text-align: justify;
+    font-size: 50px;
 }
 #about-text{
-    text-indent: 30px;
+    text-indent: 70px;
 }
 @media (max-width: 768px) {
     .container {
@@ -282,13 +283,7 @@ textarea{
     text-transform: uppercase;
     font-weight: bold;
 }
-/*.calendar #daybox{
-    positon: absolute;
-    z-index: 1;
-    background-color: #333;
-    width: 100px;
-    height: 30px;
-}*/
+
 .day {
     text-align: center;
     width: 40px;
